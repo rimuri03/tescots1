@@ -37,7 +37,7 @@ public class TesuasTest {
 
     @Test
     public void testValidPangkat() {
-        assertEquals(8, Tesuas.CariNilaiPangkat(2, 3));
+        assertEquals(8, Tesuas.CariNilaiPangkat(2, 5));
         assertEquals(16, Tesuas.CariNilaiPangkat(2, 4));
     }
     
